@@ -1,0 +1,25 @@
+This folder contains all necessary files to replicate the 
+simulation study for the master thesis "A simulation study
+of the performance of (penalized) GEE applied to longitudinal
+data suffering from low EPV" by Joris Broere:
+
+-1: Folder "Datasimulation" contains all the scripts 
+used to simulate the datasets for the conditions and
+the scripts for the validation of the regression coefficients.
+For every condition a seperate script is created.
+
+-2: Folder "Estimation functions and analyses script PGEE" contains all functions 
+necessary for analysing the simulated data with PGEE. The used function and the 
+scripts are in a different folder. It's nesecary to load the 
+simulated data files from step 1 into the workspace before running the script.
+
+-3: Folder "Scripts to analyse the results" contains the the scripts to analyse 
+the model performance for GEE, GEE with backward selection and PGEE. 
+The scripts need the simulated data files from step 1 and the obtained
+PGEE estimates from step 2.
+
+-4: The simulations and crossvalidations can take a long time (days).
+So in order to save time the simulated datafiles are in the fourth folder.
+
+-5:The simulations and crossvalidations can take a long time (days).
+So in order to save time crossvalidated tuning parameters are in the fifth folder.
